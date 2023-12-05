@@ -12,7 +12,7 @@ body{
 }
 header { 
    width: 100%;
-    background-color: rgba(92, 29, 29, 0.266);
+    background-color: rgba(255, 0, 0, 0.967);
     box-shadow: 5px 5px 5px rgb(177, 177, 177);
     position: fixed;
     transition: 0.3s;
@@ -33,6 +33,7 @@ li {
     transition:  ease-out 0.3s;
     color: aliceblue;
 }
+
 li:hover{
     transform: scale(1.2);
 }
@@ -45,6 +46,7 @@ a{
 }
 #imger img {
     width: 100%;
+    image-rendering: optimizeSpeed;
 }
 /*main*/
 main {
@@ -56,6 +58,7 @@ main {
     font-size: 20px;
     padding: 30px;
     margin-top: 120px;
+    height: 50vh;
     background-color: rgb(255, 255, 255);
 }
 #about  p {
@@ -64,8 +67,12 @@ main {
 section  h1{
     text-align: center;
 }
-footer{
-    width: 100%;
-    height: 20vh;
-    background-color: rgba(233, 233, 233, 0.518);
+
+#pictures{
+    height: 30vh;
+    background-color: red;
+}
+#another{
+    height: 30vh;
+    background-color: cadetblue;
 }
