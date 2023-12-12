@@ -5,10 +5,12 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    
 }
 
 body{
     font-family: 'Oswald', sans-serif;
+    scroll-behavior: smooth;
 }
 header { 
    width: 100%;
@@ -28,6 +30,7 @@ nav ul{
     justify-content: space-around;
 }
 
+
 li {
     list-style: none;
     transition:  ease-out 0.3s;
@@ -37,6 +40,7 @@ li {
 li:hover{
     transform: scale(1.2);
 }
+
 h1{
     margin-bottom: 50px;
 }
@@ -46,7 +50,9 @@ a{
 }
 #imger img {
     width: 100%;
-    image-rendering: optimizeSpeed;
+}
+#imger img:hover {
+    
 }
 /*main*/
 main {
@@ -63,9 +69,11 @@ main {
 }
 #about  p {
     font-size: 15px;
+    line-height: 30px;
 }
 section  h1{
     text-align: center;
+    
 }
 #pictures {
     display: grid;
@@ -96,5 +104,12 @@ section  h1{
 }
 
 
-
+#another2 {
+    height: 30vh;
+    background-color: blueviolet;
+}
+#another3 {
+    height: 30vh;
+    background-color: brown;
+}
 
