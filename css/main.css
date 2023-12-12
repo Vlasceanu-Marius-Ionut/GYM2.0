@@ -14,15 +14,13 @@ body{
 }
 header { 
    width: 100%;
-    background-color: rgba(255, 0, 0, 0.967);
-    box-shadow: 5px 5px 5px rgb(76, 70, 70);
-    position: fixed;
+    box-shadow: 5px 5px 5px rgb(255, 255, 255);
     transition: 0.3s;
 
 }
 nav ul{ 
-    height: 10vh;
-    background-color: rgba(102, 51, 153, 0.399);
+    height: 9vh;
+    background-color: #333;
     display: flex;
     width: auto;
     justify-content: center;
@@ -48,11 +46,31 @@ a{
     color: rgb(242, 242, 242);
     font-size: 25px;
 }
-#imger img {
-    width: 100%;
+#imger{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-#imger img:hover {
-    
+#gttt{
+    color:white;
+    border: solid #c8c6c6 3px;
+    background-color: #333;
+    cursor: pointer;
+    text-align: center;
+}
+
+#gttt:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.logo{
+    width: 100%;
+    height: auto;
+    align-items: center;
+    text-align: center;
+}
+.logo img {
+    width: 150px;
 }
 /*main*/
 main {
