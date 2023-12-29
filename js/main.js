@@ -16,8 +16,13 @@ const PROGRAM = document.getElementById('PROGRAM');
 PROGRAM.addEventListener('click', () =>{
     PROGRAM.window.location.href = ''
 })
-const TRAINER = document.getElementById('TRAINERS')
+const TRAINER = document.getElementById('TRAINERS');
+TRAINER.addEventListener('click', () =>{
+    TRAINER.window.location.href = 'trainers.html'
+})
 
-const CONTACT = document.getElementById('CONTACT')
-
+const CONTACT = document.getElementById('CONTACT');
+CONTACT.addEventListener('click', () =>{
+    CONTACT.window.location.href = 'contact.html'
+})
 //FUNCTIONS FOR NAV END
