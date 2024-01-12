@@ -19,3 +19,13 @@ function toggleSearchPopup() {
   const redy = getReady.querySelector('p');
   redy.textContent = redy.textContent.toUpperCase();
 
+
+  const homer = document.querySelector('.logo');
+  homer.addEventListener('click', function Homer(){
+    window.location.href = 'index.html'
+  })
+
+  const offer = document.querySelector('.logo');
+  offer.addEventListener('click', function Offerer(){
+    window.location.href = 'offerings.html'
+  })
