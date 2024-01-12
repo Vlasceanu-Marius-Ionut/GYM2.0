@@ -14,3 +14,8 @@ function toggleSearchPopup() {
     popup.classList.remove("show-popup");
   }
   
+
+  const getReady = document.getElementById('getReady');
+  const redy = getReady.querySelector('p');
+  redy.textContent = redy.textContent.toUpperCase();
+
