@@ -13,7 +13,7 @@ body {
     flex-direction: column;
     font-family: 'Verdana, Geneva, Tahoma, sans-serif';
     overflow: auto;
-   
+   background-color: antiquewhite;
 }
 
 /* Header Styles */
@@ -59,6 +59,7 @@ a:hover {
     cursor: pointer;
     transition: transform 0.2s ease;
     margin-top: 1em;
+    padding: 15px;
 }
 
 .B:hover {
@@ -254,6 +255,7 @@ main {
 #offers p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 60px;
+    text-align: center;
 }
 
 footer{
