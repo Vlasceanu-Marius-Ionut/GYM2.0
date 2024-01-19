@@ -1,14 +1,14 @@
 function toggleSearchPopup() {
-    var overlay = document.getElementById("overlay");
-    var popup = document.getElementById("search-popup");
+    let overlay = document.getElementById("overlay");
+    let popup = document.getElementById("search-popup");
   
     overlay.classList.toggle("show-overlay");
     popup.classList.toggle("show-popup");
   }
   
   function hideSearchPopup() {
-    var overlay = document.getElementById("overlay");
-    var popup = document.getElementById("search-popup");
+    let overlay = document.getElementById("overlay");
+    let popup = document.getElementById("search-popup");
   
     overlay.classList.remove("show-overlay");
     popup.classList.remove("show-popup");
@@ -29,3 +29,23 @@ function toggleSearchPopup() {
   offer.addEventListener('click', function Offerer(){
     window.location.href = 'offerings.html'
   })
+
+  document.addEventListener("DOMContentLoaded", function() {
+    let carouselContainer = document.querySelector(".carousel");
+
+    let carouselImages = [
+        "path/to/image1.jpg",
+        "path/to/image2.jpg",
+        "path/to/image3.jpg",
+    ];
+    carouselImages.forEach(function(imagePath) {
+        let imgElement = document.createElement("img");
+        imgElement.src = imagePath;
+        carouselContainer.appendChild(imgElement);
+    });
+    $(carouselContainer).slick({
+        dots: true,
+        autoplay: true,
+        autoplaySpeed: 3000,
+    });
+});
