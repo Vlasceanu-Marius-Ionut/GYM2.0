@@ -15,12 +15,12 @@ body {
     flex-direction: column;
     font-family: 'Verdana, Geneva, Tahoma, sans-serif';
     overflow: auto;
-    background-color: rgb(189, 189, 189);
+    background-color: rgb(42, 42, 42);
     margin: 0;
 }
 
 header {
-    background-image: url(/imagini/1200px-Man_lifting_a_heavy_barbell.jpg);
+    background-image: url(../imagini/1200px-Man_lifting_a_heavy_barbell.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -203,7 +203,7 @@ footer {
 }
 
 #retst a {
-    color: rgb(35, 34, 34);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 1em;
     transition: transform 0.3s ease-in-out;
