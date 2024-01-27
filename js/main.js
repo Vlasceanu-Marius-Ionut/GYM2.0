@@ -30,6 +30,11 @@ function toggleSearchPopup() {
     window.location.href = 'offerings.html'
   })
 
+  const joiner = document.querySelector('.joiner');
+  joiner.addEventListener('click', function() {
+      window.location.href = 'Location.html';
+  });
+
   document.addEventListener("DOMContentLoaded", function() {
     let carouselContainer = document.querySelector(".carousel");
 
@@ -49,3 +54,5 @@ function toggleSearchPopup() {
         autoplaySpeed: 3000,
     });
 });
+
+

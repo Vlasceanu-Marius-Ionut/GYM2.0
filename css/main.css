@@ -15,12 +15,12 @@ body {
     flex-direction: column;
     font-family: 'Verdana, Geneva, Tahoma, sans-serif';
     overflow: auto;
-    background-color: rgb(26, 26, 26);
+    background-color: rgb(27, 26, 26);
     margin: 0;
 }
 
 header {
-    background-image: url(/imagini/1200px-Man_lifting_a_heavy_barbell.jpg);
+    background-image: url(../imagini/1200px-Man_lifting_a_heavy_barbell.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -61,7 +61,7 @@ header {
 
 .logo img {
     width: 400px;
-    margin-left: 450px;
+    margin-left: 550px;
     cursor: pointer;
     transition: 1s ease-in-out;
 }
@@ -80,112 +80,66 @@ header {
     font-size: 1.5em;
 }
 main {
-    margin-top: 250px;
+    margin-top: 150px;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.348);
 }
 
 #offers {
     text-align: center;
-    padding: 2em;
     font-size: 30px;
-    background-color: rgba(202, 202, 202, 0.064);
-    margin-bottom: 100px;
+    padding: 50px;
+    width: 100%;
+    height: 50vh;
+    margin-bottom: 50px;
+}
+.containerptrimg {
+    border: rgb(77, 75, 75) 1px solid;
+    background-color: #212020;
+
+}
+.containerptrimg, p {
+    width: 100%;
+    color: white;
+    padding: 20px;
+    
+}
+#antrenor{
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
-
-#offers p {
-    transition: transform 0.5s ease-out; /* Corectează sintaxa tranziției */
-    cursor: pointer;
-    width: 300px;
+#antrenor p {
+    width: 100%;
+    text-align:center;
+    font-size: 35px;
 }
-
-#offers p:hover {
-    transform: rotate(360deg); /* Corectează sintaxa pentru rotație */
-}
-
-.containerptrimg {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
-    gap: 50px;
-    height: 50vh;
-    justify-content: center;
+.despredanii{
+    background-color: rgb(40, 39, 42);
+    height: 65vh;
+    text-align: center;
+    display: flex;
     align-items: center;
-    background-color: rgba(78, 78, 78, 0.85);
-    padding: 20px;
+    flex-direction: column;
+    justify-content:space-evenly;
+    overflow: none;
 }
-
-.B img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    cursor: pointer;
-    transition: transform 0.3s ease-in-out, border 0.3s ease-in-out;
+.Dwrapper {
+    background-color: #212020;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 100px;
+    padding: 50px;
 }
-
-.B img:hover {
-    transform: scale(1.1);
-    border: 1px solid gray; /* Adaugă grosimea pentru border */
+.j {
+    color: green;
 }
-
-
-
-#getReady{
-    padding: 1rem;
-    background-color: rgba(255, 255, 255, 0.046);
+span {
+    color: red;
+    text-decoration: underline;
 }
-#getReady p{
-    text-align: center;
-    padding: 1rem;
-    background-color: rgba(65, 64, 64, 0);
-    font-size: 20px;
-    transition: 1s ease-in-out;
-    cursor: pointer;
-}
-#getReady p:hover{
-    transform: rotateX(360deg);
-}
-
-#getReady img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-#carouselSection {
-    text-align: center;
-    padding: 2em;
-}
-
-.carousel {
-    max-width: 800px; 
-    margin: 0 auto;
-}
-
-.slick-prev, .slick-next {
-    font-size: 24px;
-    color: white;
-}
-
-.slick-prev:hover, .slick-next:hover {
-    color: #e74c3c;
-}
-
-.slick-dots {
-    bottom: 15px;
-}
-
-.slick-dots li button {
-    font-size: 12px;
-    background-color: white;
-    border-color: #e74c3c; 
-}
-
-.slick-dots li.slick-active button {
-    background-color: #e74c3c; 
-}
-
-
 footer {
     width: 80%;
     height: 10vh;
@@ -203,7 +157,7 @@ footer {
 }
 
 #retst a {
-    color: rgba(239, 239, 239, 0.415);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 1em;
     transition: transform 0.3s ease-in-out;
