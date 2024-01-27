@@ -30,29 +30,6 @@ function toggleSearchPopup() {
     window.location.href = 'offerings.html'
   })
 
-  const joiner = document.querySelector('.joiner');
-  joiner.addEventListener('click', function() {
-      window.location.href = 'Location.html';
-  });
 
-  document.addEventListener("DOMContentLoaded", function() {
-    let carouselContainer = document.querySelector(".carousel");
-
-    let carouselImages = [
-        "path/to/image1.jpg",
-        "path/to/image2.jpg",
-        "path/to/image3.jpg",
-    ];
-    carouselImages.forEach(function(imagePath) {
-        let imgElement = document.createElement("img");
-        imgElement.src = imagePath;
-        carouselContainer.appendChild(imgElement);
-    });
-    $(carouselContainer).slick({
-        dots: true,
-        autoplay: true,
-        autoplaySpeed: 3000,
-    });
-});
 
 
