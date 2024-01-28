@@ -30,6 +30,9 @@ function toggleSearchPopup() {
     window.location.href = 'offerings.html'
   })
 
-
+const location = document.getElementById('.location');
+location.addEventListener('clik', function location(){
+  window.location.href = 'Location.html'
+})
 
 
