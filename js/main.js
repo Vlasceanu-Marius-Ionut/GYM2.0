@@ -35,4 +35,4 @@ location.addEventListener('clik', function location(){
   window.location.href = 'Location.html'
 })
 
-
+const loss = ''
