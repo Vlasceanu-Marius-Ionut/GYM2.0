@@ -1,18 +1,12 @@
-function toggleSearchPopup() {
-    let overlay = document.getElementById("overlay");
-    let popup = document.getElementById("search-popup");
-  
-    overlay.classList.toggle("show-overlay");
-    popup.classList.toggle("show-popup");
-  }
-  
-  function hideSearchPopup() {
-    let overlay = document.getElementById("overlay");
-    let popup = document.getElementById("search-popup");
-  
-    overlay.classList.remove("show-overlay");
-    popup.classList.remove("show-popup");
-  }
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+      });
+  });
+});
   
 
   const getReady = document.getElementById('getReady');
