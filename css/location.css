@@ -46,7 +46,7 @@ header {
 }
 main {
     margin-top: 150px;
-    width: 80%;
+    width: 90%;
     background-color: rgba(0, 0, 0, 0.348);
     margin-top: 250px;
     display: flex;
@@ -85,8 +85,8 @@ span {
     width: 100%;
     text-align: center;
     color: white;
-    font-size: 35px;
-    padding: 10px
+    font-size: 20px;
+    padding: 15px
 }
 .program {
     width: 100%;
