@@ -91,7 +91,7 @@ main {
 }
 #offers {
     width: 87%;
-    margin-top: 50px;
+    margin-top: 200px;
 }
 #offers p {
     font-size: 25px;
@@ -120,12 +120,15 @@ main {
     color: rgba(255, 255, 255, 0.544);
     font-size: 40px;
     margin-left: 10px;
+    
 }
 #antrenor{
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
+    margin-top: 300px;
+    border: rgb(58, 58, 58) solid 1px;
 }
 #antrenor p {
     width: 100%;
@@ -181,10 +184,14 @@ footer {
 #kickboxinglasses{
     width: 100%;
     height: 130vh;
-    margin-top: 200px;
+    margin-top: 400px;
+    border: rgb(58, 58, 58) solid 1px;
+}
+#kickboxinglasses h2{
+    text-align: center;
 }
 .kickbox{
-    background-color: antiquewhite;
+    background-color: rgb(68, 67, 67);
     height: 100vh;
 }
 
