@@ -9,6 +9,17 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
   
 
+function toggleMenu() {
+  const menu = document.querySelector('.burger-menu');
+  menu.classList.toggle('active');
+}
+function toggleMenu() {
+  let navBar = document.getElementById("navi");
+  navBar.classList.toggle("active");
+}
+
+
+
   const getReady = document.getElementById('getReady');
   const redy = getReady.querySelector('p');
   redy.textContent = redy.textContent.toUpperCase();
