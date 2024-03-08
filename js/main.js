@@ -30,6 +30,11 @@ function toggleMenu() {
     window.location.href = 'index.html'
   })
 
+  const homer2 = document.querySelector('.logo');
+  homer.addEventListener('click', function Homer(){
+    window.location.href = 'index.html'
+  })
+
   const offer = document.querySelector('.logo');
   offer.addEventListener('click', function Offerer(){
     window.location.href = 'offerings.html'
@@ -40,4 +45,4 @@ location.addEventListener('clik', function location(){
   window.location.href = 'Location.html'
 })
 
-const loss = ''
+
